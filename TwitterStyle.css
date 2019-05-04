@@ -21,8 +21,8 @@ and I tried to recreate it on my own.
 }
 .iconContainer {
 	display: grid;
-	grid-template-columns: auto auto;
-	grid-gap: 10px;
+	grid-template-columns: 20px auto;
+	grid-gap: 30px;
 	margin-left: 30%;
 	margin-top: 30%;
 	
@@ -30,27 +30,36 @@ and I tried to recreate it on my own.
 .item1 {
 	grid-row-start: 1;
 	grid-column-start: 1;
+	font-size: 30px;
 	
 }
 .item2 {
 	grid-row-start: 1;
 	grid-column-start: 2;
+	font-size: 20px;
+	font-family: helvetica;
 }
 .item3 {
 	grid-row-start: 2;
 	grid-column-start: 1;
+	font-size: 30px;
 }
 .item4 {
 	grid-row-start: 2;
 	grid-column-start: 2;
+	font-size: 20px;
+	font-family: helvetica;
 }
 .item5 {
 	grid-row-start: 3;
 	grid-column-start: 1;
+	font-size: 30px;
 }
 .item6 {
 	grid-row-start: 3;
 	grid-column-start: 2;
+	font-size: 20px;
+	font-family: helvetica;;
 }
 i {
 	/*display: inline-block;*/
@@ -67,51 +76,69 @@ i {
 }
 
 .userName {
-	/*height: 40px; */
-	margin-left: 30px;
+	margin-top: 20px;
+	margin-left: 100px;
 	width: 200px;
 	border: 0.5px solid #D3D3D3;
-	color: #D3D3D3;
-	padding: 10px;
+	font-size: 13px;
+	padding: 15px;
+	color: #6c6c6c;
 	border-radius: 5px;
+	font-family: Helvetica;
+	float: left;
+}
+
+.password {
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 200px;
+	border: 0.5px solid #D3D3D3;
+	font-size: 13px;
+	padding: 15px;
+	color: #6c6c6c;
+	border-radius: 5px;
+	font-family: Helvetica;
 	float: left;
 }
 
 .topLogIn {
-	margin-left: 30px;
+	margin-top: 20px;
+	margin-left: 10px;
 	background-color: white;
 	border: 0.5px solid #009ACD;
-	border-radius: 20px;
-	padding: 10px;
-	width: 50px;
+	border-radius: 30px;
+	font-family: Helvetica;
+	font-size: 11px;
+	padding: 15px;
+	/*width: 35px;*/
 	color: #1c94e0;
 	float: left;
 }
-
+.logInContainer {
+	text-align: left;
+	margin-left: 30%;
+}
 .mainFont {
-	font-style: Sans-serif;
-	color: #1c94e0;
-	font-size: 20px;
+	font-family: Helvetica;
+	font-size: 25px;	
+}
+.joinFont {
+	font-family: Helvetica;
+	font-size: 18px;
 }
 .bottomSignUp {
-	width: 300px;
-	padding: 10px;
+	width: 330px;
+	padding: 5px;
 	background-color: #009ACD;
 	border-radius: 20px;
 	color: white;
 }
 
 .bottomLogIn {
-	width: 300px;
-	padding: 10px;
+	width: 330px;
+	padding: 5px;
 	background-color: white;
 	color: #009ACD;
 	border: 0.5px solid #009ACD;
 	border-radius: 50px;
-}
-
-.joinFont {
-	font-style: Sans-serif;
-	color: #1c94e0;
-	font-size: 20px;
 }
